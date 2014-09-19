@@ -1,0 +1,37 @@
+﻿Build started 8/3/2013 12:46:50 PM.
+     1>Project "C:\Users\Bernardus Billy\documents\visual studio 2010\Projects\Security Algebra\Security Algebra\Security Algebra.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Security Algebra.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "Password Generator.cpp"
+         Password Generator.cpp
+     1>c:\users\bernardus billy\documents\visual studio 2010\projects\security algebra\security algebra\password generator.cpp(47): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>c:\users\bernardus billy\documents\visual studio 2010\projects\security algebra\security algebra\password generator.cpp(36): warning C4101: 'temp' : unreferenced local variable
+     1>c:\users\bernardus billy\documents\visual studio 2010\projects\security algebra\security algebra\password generator.cpp(37): warning C4101: 'password' : unreferenced local variable
+     1>c:\users\bernardus billy\documents\visual studio 2010\projects\security algebra\security algebra\password generator.cpp(109): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>c:\users\bernardus billy\documents\visual studio 2010\projects\security algebra\security algebra\password generator.cpp(111): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\bernardus billy\documents\visual studio 2010\projects\security algebra\security algebra\password generator.cpp(132): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>c:\users\bernardus billy\documents\visual studio 2010\projects\security algebra\security algebra\password generator.cpp(286): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>c:\users\bernardus billy\documents\visual studio 2010\projects\security algebra\security algebra\password generator.cpp(291): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\bernardus billy\documents\visual studio 2010\projects\security algebra\security algebra\password generator.cpp(292): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\bernardus billy\documents\visual studio 2010\projects\security algebra\security algebra\password generator.cpp(278): warning C4715: 'string_length' : not all control paths return a value
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Bernardus Billy\documents\visual studio 2010\Projects\Security Algebra\Debug\Security Algebra.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Security Algebra.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Bernardus Billy\documents\visual studio 2010\Projects\Security Algebra\Debug\Security Algebra.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Bernardus Billy\documents\visual studio 2010\Projects\Security Algebra\Debug\Security Algebra.lib" /MACHINE:X86 "Debug\Password Generator.obj"
+         LINK : C:\Users\Bernardus Billy\documents\visual studio 2010\Projects\Security Algebra\Debug\Security Algebra.exe not found or not built by the last incremental link; performing full link
+         Security Algebra.vcxproj -> C:\Users\Bernardus Billy\documents\visual studio 2010\Projects\Security Algebra\Debug\Security Algebra.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Bernardus Billy\documents\visual studio 2010\Projects\Security Algebra\Debug\Security Algebra.exe;#1" /manifest "Debug\Security Algebra.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\Security Algebra.unsuccessfulbuild".
+         Touching "Debug\Security Algebra.lastbuildstate".
+     1>Done Building Project "C:\Users\Bernardus Billy\documents\visual studio 2010\Projects\Security Algebra\Security Algebra\Security Algebra.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.06
